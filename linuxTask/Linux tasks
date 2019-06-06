@@ -1,0 +1,65 @@
+Beginner
+
+Task 1: Basic Task
+
+1 - ls 
+2 - mkdir myProject
+3 - cd myProject
+4 - touch app.js
+5 - cd Desktop
+6 - mkdir myProject2
+7 - cp app.js /myProject2
+
+Task 2: Absolute and Relative Paths
+
+1 - touch exercise.txt 
+2 - rm /exercise.txt
+
+Intermediate
+
+Task 3: Cat commands 
+
+1 - cd myProject 
+2 - touch umuzi.txt recruits.txt cohort.txt
+3 - ls 
+4 - nano umuzi.txt
+5 - ctrl x 
+6 - y and enter
+7 - nano recruits.txt 
+8 - ctrl x
+9 - y and enter
+10- nano cohort.txt
+11- ctrl x
+12- y and enter
+13- cat umuzi.txt
+14- cat recruit.txt
+15- cat cohort.txt
+16- touch summary.txt
+17- cat umuzi.txt recruits.txt cohort.txt > summary.txt 
+
+Task 4: The locate command 
+1 - locate umuzi
+2 - search umuzi >> search_result.txt
+
+Task 5: The loacate command cont..
+1 -mkdir mydocuments 
+2 - cd mydocuments
+3 - touch pad.txt
+4 - cd ../..
+5 - cd Desktop
+6 - loacate pad_copy.txt
+
+Task 6: Find commands 
+1 - find . -type f -name "*.pdf"
+2 - find . -type f -name "*.pdf" |tee -a /home/zoe/Desktop/myProject2
+3 - find . -daystart -print
+
+Task 10: Text editor 
+1 - nano 
+2 - mkdir my_files
+3 - mv my_bio.txt my_files
+
+
+
+
+
